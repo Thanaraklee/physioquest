@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">physioquest</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="policy_checkbox">
+        I have read and agree to the
+        <a href="https://example.com/privacy">Privacy Policy</a> and
+        <a href="https://example.com/terms_and_conditions">Terms and Conditions</a>.
+    </string>
+    <string name="get_start">Get Start</string>
+</resources>
