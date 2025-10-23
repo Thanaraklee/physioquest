@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var usernameInput : EditText
     lateinit var passwordInput : EditText
     lateinit var loginBtn : Button
+    lateinit var testCamera : Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,6 +30,8 @@ class MainActivity : AppCompatActivity() {
         usernameInput = findViewById(R.id.username_input)
         passwordInput = findViewById(R.id.password_input)
         loginBtn = findViewById(R.id.login_btn)
+        testCamera = findViewById(R.id.test_camera)
+
 
         loginBtn.setOnClickListener {
             val username = usernameInput.text.toString()
@@ -38,6 +41,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, PainPoint::class.java)
             startActivity(intent)
         }
+
+        testCamera.setOnClickListener {
+            val intent = Intent(this, Camera::class.java)
+            startActivity(intent)
+        }
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)

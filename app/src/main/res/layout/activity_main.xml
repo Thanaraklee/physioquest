@@ -105,6 +105,19 @@
             android:text="@string/get_start"
             android:textAllCaps="false"
             android:textColor="@drawable/button_text" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/test_camera"
+            android:layout_width="184dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="51dp"
+            android:background="@drawable/button_blue"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center_vertical|center"
+            android:stateListAnimator="@null"
+            android:text="@string/test_camera"
+            android:textAllCaps="false"
+            android:textColor="@drawable/button_text" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
