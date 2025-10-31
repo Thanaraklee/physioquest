@@ -46,4 +46,15 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation("androidx.core:core-splashscreen:1.0.0")
+
+    // Pose detection with default models
+    implementation("com.google.mlkit:pose-detection:18.0.0-beta5")
+    // Pose detection with accurate models
+    implementation("com.google.mlkit:pose-detection-accurate:18.0.0-beta5")
+
+    // CameraX core
+    implementation("androidx.camera:camera-core:1.5.1")
+    implementation("androidx.camera:camera-camera2:1.5.1")
+    implementation("androidx.camera:camera-lifecycle:1.5.1")
+    implementation("androidx.camera:camera-view:1.5.1")
 }
