@@ -3,6 +3,7 @@
     <string name="user_name">Username</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
+    <string name="Register">Register</string>
     <string name="policy_checkbox">
         I have read and agree to the
         <a href="https://example.com/privacy">Privacy Policy</a> and
